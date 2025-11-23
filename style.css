@@ -254,3 +254,12 @@ nav > div:last-child > .active:after {
   background-color: #fff;
   z-index: 100;
 }
+@media (max-width: 768px) {
+  .details {
+    display: none;
+  }
+
+  .cover {
+    display: none;
+  }
+}
